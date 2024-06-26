@@ -1,0 +1,25 @@
+{
+  "require": {
+    "doctrine/dbal": "^4.0",
+    "doctrine/inflector": "^2.0",
+    "psr/log": "^3.0",
+    "nette/php-generator": "^4.1"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "symfony/var-dumper": "^7.1",
+    "friendsofphp/php-cs-fixer": "^3.59"
+  },
+  "config": {
+    "platform": {
+      "php": "8.3"
+    },
+    "optimize-autoloader": true,
+    "platform-check": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Langmans\\ModelFromDB\\": "./src"
+    }
+  }
+}
